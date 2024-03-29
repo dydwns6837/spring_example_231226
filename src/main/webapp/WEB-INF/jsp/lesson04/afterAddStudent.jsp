@@ -16,34 +16,33 @@
 		<table class="table table-striped">
 			<tr>
 				<th>번호</th>
-				<td></td>
+				<td>${student.id}</td>
 			</tr>
 			<tr>
 				<th>이름</th>
-				<td></td>
+				<td>${student.name}</td>
 			</tr>
 			<tr>
 				<th>휴대폰 번호</th>
-				<td></td>
+				<td>${student.phoneNumber}</td>
 			</tr>
 			<tr>
 				<th>이메일</th>
-				<td></td>
+				<td>${student.email}</td>
 			</tr>
 			<tr>
 				<th>장래희망</th>
-				<td></td>
+				<td>${student.dreamJob}</td>
 			</tr>
 			<tr>
 				<th>생성일</th>
-				<td></td>
+				<td>${student.createdAt}</td>
 			</tr>
 			<tr>
 				<th>수정일</th>
-				<td></td>
-			</tr>		
+				<td>${student.updatedAt}</td>
+			</tr>
 		</table>
 	</div>
-	
 </body>
 </html>

@@ -18,6 +18,6 @@ public class StudentBO {
 	
 	// input: id , output:student or null
 	public Student getStudentById(int id) {
-		
+		return studentMapper.selectStudentById(id);
 	}
 }
