@@ -12,6 +12,17 @@ public class StudentBO {
 	@Autowired
 	private StudentMapper studentMapper;
 	
+	@Autowired
+	private StudentRepository studentRepository;
+	
+	// JPA로 insert
+	public StudentEntity addStudent(
+			String name, String phoneNumber, String email, String dreamJob) {
+		
+	}
+	
+	
+	// MyBatis로 insert
 	public void addStduent(Student student) {
 		studentMapper.insertStduent(student);
 	}
